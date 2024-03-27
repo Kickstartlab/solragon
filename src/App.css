@@ -1,0 +1,60 @@
+html {
+  scroll-behavior: smooth
+}
+
+.bg-gradient {
+  background: linear-gradient(253.5deg, rgba(42, 56, 132, 0.17) 20.09%, rgba(132, 42, 42, 0.17) 89.18%);
+  border-radius: 60px;
+}
+
+.bg-full {
+  background-image: url(../src/assets/bg-full.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: contain;
+}
+
+.line {
+  background: #6284DB;
+  animation: line 6s infinite linear;
+}
+
+@keyframes line {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.animate-float {
+  transform: translatey(0px);
+  animation: float 2.5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0, 20px);
+  }
+
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+#tsparticles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  z-index: -1;
+}
