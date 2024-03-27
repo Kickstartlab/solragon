@@ -17,10 +17,10 @@ export default function Footer() {
 
           <div className='flex items-center gap-x-6'>
             <a href='/'>
-              <img src={twitter} alt=''></img>
+              <img src={twitter} alt='twitter'></img>
             </a>
-            <a href='/'>
-              <img src={telegram} alt=''></img>
+            <a href='https://t.me/SOLRAGON_PORTAL'>
+              <img src={telegram} alt='telegram'></img>
             </a>
           </div>
 

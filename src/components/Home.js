@@ -28,23 +28,17 @@ export default function Home() {
 
                     <Menu />
 
-                    <img data-aos='fade-up' src={bg_top} alt='' className='absolute right-0 left-0 mt-6 flex mx-auto px-5'></img>
+                    <img data-aos='fade-up' data-aos-delay='300' src={bg_top} alt='' className='absolute right-0 left-0 mt-6 flex mx-auto px-5'></img>
 
-                    <div className="lg:flex justify-between items-center gap-x-12 py-12 mt-20 lg:space-y-0 space-y-8 relative z-20">
+                    <div className="lg:flex justify-between gap-x-12 py-12 lg:mt-32 mt-20 lg:space-y-0 space-y-8 relative z-20">
                         <div data-aos='slide-right' className='lg:w-4/12'>
                             <p className='text-lg text-white-50 font-thin'>
                                 Solragon is a groundbreaking project poised to revolutionize the Solana ecosystem. Solragon introduces a novel concept of free Liquidity pool locker for Solana-based tokens.
                                 Our platform aims to provide a secure and efficient solution for liquidity providers (LPs) within the Solana DeFi space free of cost. With Solragon, LPs can safeguard their Solana tokens while providing peace of mind for investors.
                             </p>
-                        </div>
 
-                        <div data-aos='zoom-in' className='lg:w-4/12'>
-                            <img src={top} alt='' className='animate-float'></img>
-                        </div>
-
-                        <div className='lg:w-4/12 flex flex-col items-center justify-center'>
                             <a href="https://docs.solragon.io/">
-                                <button data-aos='slide-right' className="text-white-50 bg-blue-50 py-3 lg:text-lg px-10 px-5 text-center rounded-xl font-medium flex items-center justify-center gap-x-6 border-2 border-blue-50 hover:text-white-50">
+                                <button data-aos='slide-right' className="text-white-50 bg-blue-50 py-3 lg:text-lg lg:px-10 px-5 text-center rounded-xl font-medium flex items-center justify-center gap-x-6 border-2 border-blue-50 hover:text-white-50 mt-6">
                                     Whitepaper
 
                                     <svg className='' width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -53,6 +47,17 @@ export default function Home() {
                                     </svg>
                                 </button>
                             </a>
+                        </div>
+
+                        <div data-aos='zoom-in' data-aos-delay='200' className='lg:w-4/12'>
+                            <img src={top} alt='' className='animate-float lg:-mt-8'></img>
+                        </div>
+
+                        <div className='lg:w-4/12 flex flex-col'>
+                            <p data-aos='slide-left' className='md:text-3xl text-lg font-bold text-white-50'>
+                                Empowering Solana, Protecting Your Investments for free
+                            </p>
+
 
                             <a href="/">
                                 <button data-aos='slide-left' className="text-blue-50 font-medium lg:text-lg py-3 px-8 border-2 border-blue-50 rounded-xl flex items-center justify-center gap-x-6 hover:bg-blue-50 hover:text-white-50 mt-8">
@@ -280,7 +285,7 @@ export default function Home() {
                         Join Us
                     </h3>
 
-                    <p className="md:text-lg text-base font-thin text-center mx-auto">
+                    <p className="md:text-lg text-base font-semibold text-center mx-auto">
                         Thank you for exploring Solragon, the ultimate destination for secure and accessible liquidity provision on the Solana blockchain. Join our community today to unlock the full potential of decentralized finance while protecting your investments. Together, let's shape the future of DeFi on Solana.
                     </p>
                 </div>

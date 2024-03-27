@@ -23,7 +23,7 @@ export default function Menu() {
             <li><a href="#about" className="text-white-50 hover:text-white-100">About</a></li>
             <li><a href="#tokenomics" className="text-white-50 hover:text-white-100">Tokenomics</a></li>
             <li><a href="#roadmap" className="text-white-50 hover:text-white-100">roadmap</a></li>
-            <li><a href="/" className='text-white-50 hover:text-white-100'>join us</a></li>
+            <li><a href="https://t.me/SOLRAGON_PORTAL" className='text-white-50 hover:text-white-100'>join us</a></li>
           </ul>
         </nav>
 
@@ -69,7 +69,7 @@ export default function Menu() {
             <a href="#roadmap" className="text-lg ml-4 font-semibold">Roadmap</a>
           </button>
           <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer  text-white-100">
-            <a href="/" className="text-lg ml-4 font-semibold">Join Us</a>
+            <a href="https://t.me/SOLRAGON_PORTAL" className="text-lg ml-4 font-semibold">Join Us</a>
           </button>
           <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer  text-white-100 bg-red-50">
             <a href="/" className="text-lg ml-4 font-semibold">Connect Wallet</a>
