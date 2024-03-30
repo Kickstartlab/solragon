@@ -4,6 +4,14 @@ import Menu from './Menu'
 import bg_top from '../assets/bg_top.png';
 import top from '../assets/top.png';
 import token from '../assets/token.png';
+import p_1 from '../assets/p_1.png';
+import p_2 from '../assets/p_2.png';
+import p_3 from '../assets/p_3.png';
+import p_4 from '../assets/p_4.png';
+import team_1 from '../assets/team_1.png';
+import team_2 from '../assets/team_2.png';
+import telegram from '../assets/telegram.png';
+
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Particle from './Particle';
@@ -214,7 +222,7 @@ export default function Home() {
 
                                 <ul className="space-y-2 mt-4 list-disc ml-4">
                                     <li>Proving the concept can work</li>
-                                    <li>White paper conpletion</li>
+                                    <li>Whitepaper completion</li>
                                 </ul>
                             </div>
                         </div>
@@ -277,6 +285,56 @@ export default function Home() {
                 </div>
             </div>
 
+            {/* partners */}
+
+            <div className="lg:py-16 py-6 lg:px-20 px-5 container mx-auto">
+
+                <h3 className='md:text-6xl text-4xl font-semibold font-dragon tracking-widest text-center lg:mb-20 mb-8 uppercase'>
+                    partners
+                </h3>
+
+                <div className='flex flex-wrap items-center justify-center gap-10'>
+                    <img src={p_1} alt=''></img>
+                    <img src={p_2} alt=''></img>
+                    <img src={p_3} alt=''></img>
+                    <img src={p_4} alt=''></img>
+                </div>
+            </div>
+
+            {/* team */}
+
+            <div className="lg:py-16 py-5 lg:px-20 px-5 container mx-auto">
+
+                <h3 className='md:text-6xl text-5xl font-semibold font-dragon tracking-widest text-center lg:mb-20 mb-12 uppercase'>
+                    Team
+                </h3>
+
+                <div className='lg:flex items-center justify-center gap-28 lg:space-y-0 space-y-8'>
+                    <div className='lg:flex items-center gap-8'>
+                        <img src={team_1} alt='' className='mb-5 lg:block flex mx-auto'></img>
+
+                        <div className='space-y-4 lg:text-left text-center'>
+                            <h3 className='md:text-3xl text-xl font-semibold font-dragon tracking-widest uppercase'>
+                                Owner
+                            </h3>
+                            <p className='lg:text-lg pb-6'>@Apeking1337</p>
+                            <a href='https://t.me/Apeking1337' className=''><img src={telegram} alt='' className='lg:block flex mx-auto'></img></a>
+                        </div>
+                    </div>
+
+                    <div className='lg:flex items-center gap-8'>
+                        <img src={team_2} alt='' className='mb-5 lg:block flex mx-auto'></img>
+
+                        <div className='space-y-4 lg:text-left text-center'>
+                            <h3 className='md:text-3xl text-xl font-semibold font-dragon tracking-widest uppercase'>
+                                Core
+                            </h3>
+                            <p className='lg:text-lg pb-6'>@gogeta_Sol</p>
+                            <a href='https://t.me/Gogeta_Sol' className=''><img src={telegram} alt='' className='lg:block flex mx-auto'></img></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div className="lg:py-16 py-5 lg:px-20 px-5 mb-12 container mx-auto">
 
@@ -288,6 +346,12 @@ export default function Home() {
                     <p className="md:text-lg text-base font-semibold text-center mx-auto">
                         Thank you for exploring Solragon, the ultimate destination for secure and accessible liquidity provision on the Solana blockchain. Join our community today to unlock the full potential of decentralized finance while protecting your investments. Together, let's shape the future of DeFi on Solana.
                     </p>
+
+                    <a href="/">
+                        <button className="text-white-50 bg-blue-50 py-2 md:px-10 px-6 text-medium text-center rounded-xl font-medium flex items-center justify-center gap-x-6 border-2 border-blue-50">
+                        Connect with us
+                        </button>
+                    </a>
                 </div>
 
             </div>
