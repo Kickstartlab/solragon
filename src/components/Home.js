@@ -188,7 +188,7 @@ export default function Home() {
                                 data-aos="flip-right"
                                 className="border border-blue-50 rounded-2xl p-6 lg:w-72 w-full"
                             >
-                                <p>June 15, 2024</p>
+                                <p>MARCH 15, 2024</p>
 
                                 <h5 className="text-2xl font-semibold pt-2">Concept</h5>
 
@@ -216,7 +216,7 @@ export default function Home() {
                                 data-aos="flip-right"
                                 className="border border-blue-50 rounded-2xl p-4 lg:w-72 w-full"
                             >
-                                <p>June 20, 2024</p>
+                                <p>March 31, 2024</p>
 
                                 <h5 className="text-2xl font-semibold pt-2">Research</h5>
 
@@ -244,7 +244,7 @@ export default function Home() {
                                 data-aos="flip-right"
                                 className="border border-blue-50 rounded-2xl p-4 lg:w-72 w-full"
                             >
-                                <p>May 15, 2024</p>
+                                <p>TBA</p>
 
                                 <h5 className="text-2xl font-semibold pt-2">Design</h5>
 
@@ -272,7 +272,7 @@ export default function Home() {
                                 data-aos="flip-right"
                                 className="border border-blue-50 rounded-2xl p-4 lg:w-72 w-full"
                             >
-                                <p>July 01, 2024</p>
+                                <p>TBA</p>
 
                                 <h5 className="text-2xl font-semibold pt-2">Pre-sale</h5>
 
