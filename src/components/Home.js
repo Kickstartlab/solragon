@@ -8,10 +8,6 @@ import p_1 from '../assets/p_1.png';
 import p_2 from '../assets/p_2.png';
 import p_3 from '../assets/p_3.png';
 import p_4 from '../assets/p_4.png';
-import team_1 from '../assets/team_1.png';
-import team_2 from '../assets/team_2.png';
-import telegram from '../assets/telegram.png';
-
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Particle from './Particle';
@@ -140,12 +136,23 @@ export default function Home() {
 
                 <div className='lg:w-9/12 flex flex-col mx-auto text-center space-y-8 lg:py-20 py-8'>
                     <h1 className='md:text-5xl text-3xl font-semibold font-dragon tracking-widest'>
-                        Liquidity Token
+                        Liquidity Lock
                     </h1>
 
                     <p className='md:text-lg'>
                         Let's talk Solragon, the game-changer on Solana. Picture this: a free LP pool locker, designed just for Solana tokens. With Solragon, locking your assets is a breeze - and guess what? It's totally free! No fees, no hassle. We're talking about keeping your investments safe from rug pulls and dodgy schemes. Plus, with our platform, you're not just locking liquidity; you're locking in trust, transparency, and stability in the Solana DeFi world. So, why wait? Join us and let's ride the wave of a safer, more inclusive financial future together!"
                     </p>
+
+                    <a href="https://solragon-locker.netlify.app/">
+                        <button data-aos='zoom-in' className="text-white-50 bg-blue-50 py-3 lg:text-lg lg:px-10 px-5 text-center rounded-xl font-medium flex items-center justify-center mx-auto gap-x-6 border-2 border-blue-50 hover:text-white-50 mt-6">
+                            Liquidity Locker
+
+                            <svg className='' width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.84753 3.55811L16.6672 6.33399L14.1614 16.226" stroke="#FEF5E7" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+                                <path d="M3.55807 13.6743L16.5684 6.16281" stroke="#FEF5E7" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+                            </svg>
+                        </button>
+                    </a>
                 </div>
 
                 <img src={token} alt='toeknomics' className='flex mx-auto'></img>
@@ -186,7 +193,7 @@ export default function Home() {
 
                             <div
                                 data-aos="flip-right"
-                                className="border border-blue-50 rounded-2xl p-6 lg:w-72 w-full"
+                                className="border border-blue-50 rounded-2xl p-6 lg:w-72 w-full lg:h-48"
                             >
                                 <p>MARCH 15, 2024</p>
 
@@ -214,38 +221,9 @@ export default function Home() {
 
                             <div
                                 data-aos="flip-right"
-                                className="border border-blue-50 rounded-2xl p-4 lg:w-72 w-full"
+                                className="border border-blue-50 rounded-2xl p-4 lg:w-72 w-full lg:h-48"
                             >
-                                <p>March 31, 2024</p>
-
-                                <h5 className="text-2xl font-semibold pt-2">Research</h5>
-
-                                <ul className="space-y-2 mt-4 list-disc ml-4">
-                                    <li>Proving the concept can work</li>
-                                    <li>Whitepaper completion</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className="flex flex-col items-center">
-                            <div
-                                data-aos="zoom-in"
-                                className="absolute -mt-3.5 lg:block hidden"
-                            >
-                                <svg width="38" height="39" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle opacity="0.2" cx="19.0471" cy="19.4725" r="18.5609" fill="#6284DB" />
-                                    <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#6284DB" />
-                                </svg>
-                            </div>
-
-                            <div className="border-l border-blue-50 lg:mt-5 mt-0 mb-3 h-14"></div>
-
-                            <div
-                                data-aos="flip-right"
-                                className="border border-blue-50 rounded-2xl p-4 lg:w-72 w-full"
-                            >
-                                <p>TBA</p>
-
+                                <p>March 27, 2024</p>
                                 <h5 className="text-2xl font-semibold pt-2">Design</h5>
 
                                 <ul className="space-y-2 mt-4 list-disc ml-4">
@@ -270,14 +248,42 @@ export default function Home() {
 
                             <div
                                 data-aos="flip-right"
-                                className="border border-blue-50 rounded-2xl p-4 lg:w-72 w-full"
+                                className="border border-blue-50 rounded-2xl p-4 lg:w-72 w-full lg:h-48"
                             >
-                                <p>TBA</p>
+                                <p>March 30th to 31st</p>
 
                                 <h5 className="text-2xl font-semibold pt-2">Pre-sale</h5>
 
                                 <ul className="space-y-2 mt-4 list-disc ml-4">
                                     <li>Public financing & Seed funding raised</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div className="flex flex-col items-center">
+                            <div
+                                data-aos="zoom-in"
+                                className="absolute -mt-3.5 lg:block hidden"
+                            >
+                                <svg width="38" height="39" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle opacity="0.2" cx="19.0471" cy="19.4725" r="18.5609" fill="#6284DB" />
+                                    <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#6284DB" />
+                                </svg>
+                            </div>
+
+                            <div className="border-l border-blue-50 lg:mt-5 mt-0 mb-3 h-14"></div>
+
+                            <div
+                                data-aos="flip-right"
+                                className="border border-blue-50 rounded-2xl p-4 lg:w-72 w-full lg:h-48"
+                            >
+                                <p>TBA</p>
+
+                                <h5 className="text-2xl font-semibold pt-2">Liquidity Pool Locker</h5>
+
+                                <ul className="space-y-2 mt-4 list-disc ml-4">
+                                    <li>Release of first utility for project</li>
+                                    <li>Free locker based on solana chain</li>
                                 </ul>
                             </div>
                         </div>
@@ -303,39 +309,6 @@ export default function Home() {
 
             {/* team */}
 
-            <div className="lg:py-16 py-5 lg:px-20 px-5 container mx-auto">
-
-                <h3 className='md:text-6xl text-5xl font-semibold font-dragon tracking-widest text-center lg:mb-20 mb-12 uppercase'>
-                    Team
-                </h3>
-
-                <div className='lg:flex items-center justify-center gap-28 lg:space-y-0 space-y-8'>
-                    <div className='lg:flex items-center gap-8'>
-                        <img src={team_1} alt='' className='mb-5 lg:block flex mx-auto'></img>
-
-                        <div className='space-y-4 lg:text-left text-center'>
-                            <h3 className='md:text-3xl text-xl font-semibold font-dragon tracking-widest uppercase'>
-                                Owner
-                            </h3>
-                            <p className='lg:text-lg pb-6'>@Apeking1337</p>
-                            <a href='https://t.me/Apeking1337' className=''><img src={telegram} alt='' className='lg:block flex mx-auto'></img></a>
-                        </div>
-                    </div>
-
-                    <div className='lg:flex items-center gap-8'>
-                        <img src={team_2} alt='' className='mb-5 lg:block flex mx-auto'></img>
-
-                        <div className='space-y-4 lg:text-left text-center'>
-                            <h3 className='md:text-3xl text-xl font-semibold font-dragon tracking-widest uppercase'>
-                                Core
-                            </h3>
-                            <p className='lg:text-lg pb-6'>@gogeta_Sol</p>
-                            <a href='https://t.me/Gogeta_Sol' className=''><img src={telegram} alt='' className='lg:block flex mx-auto'></img></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <div className="lg:py-16 py-5 lg:px-20 px-5 mb-12 container mx-auto">
 
                 <div className='lg:w-9/12 bg-gradient flex flex-col justify-center items-center mx-auto md:py-16 py-8 md:px-12 px-5 gap-y-12 shadow-xl'>
@@ -349,7 +322,7 @@ export default function Home() {
 
                     <a href="/">
                         <button className="text-white-50 bg-blue-50 py-2 md:px-10 px-6 text-medium text-center rounded-xl font-medium flex items-center justify-center gap-x-6 border-2 border-blue-50">
-                        Connect with us
+                            Connect with us
                         </button>
                     </a>
                 </div>
