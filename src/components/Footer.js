@@ -12,17 +12,18 @@ export default function Footer() {
 
         <div className='flex flex-col justify-between items-center text-center gap-y-6'>
           <p className='md:text-3xl text-xl font-semibold font-dragon tracking-widest'>
-          Don't miss out, Stay updated
+            Don't miss out, Stay updated
           </p>
 
           <div className='flex items-center gap-x-6'>
-            <a href='/'>
+            <a href='https://twitter.com/SOLRAGON_'>
               <img src={twitter} alt='twitter'></img>
             </a>
             <a href='https://t.me/SOLRAGON_PORTAL'>
               <img src={telegram} alt='telegram'></img>
             </a>
           </div>
+          <p className='text-white-50'>Email: <a href='mailto:team@solragon.io' className='hover:text-blue-50 hover:underline'>team@solragon.io</a></p>
 
           <p className='pb-6 text-white-50'> © {new Date().getFullYear()}. All rights reserved by Solragon</p>
         </div>

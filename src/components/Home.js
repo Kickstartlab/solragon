@@ -8,6 +8,7 @@ import p_1 from '../assets/p_1.png';
 import p_2 from '../assets/p_2.png';
 import p_3 from '../assets/p_3.png';
 import p_4 from '../assets/p_4.png';
+import p_5 from '../assets/p_5.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Particle from './Particle';
@@ -23,6 +24,9 @@ export default function Home() {
 
     return (
         <div className="bg-black-50 font-clash overflow-hidden text-white-100 bg-full">
+            <div className='bg-blue-50 text-center md:text-base text-sm py-2'>
+                <p>CA: 7UwysmyBx9DAg8BjLqzatSvDC8biud5pDfMvVAFFvvJw</p>
+            </div>
 
             <div className="lg:px-20 px-5 relative z-20">
                 <div className='container mx-auto'>
@@ -54,7 +58,9 @@ export default function Home() {
                         </div>
 
                         <div data-aos='zoom-in' data-aos-delay='200' className='lg:w-4/12'>
-                            <img src={top} alt='' className='animate-float lg:-mt-8'></img>
+                            <a href='https://ibb.co/zVNpr4N'>
+                                <img src={top} alt='' className='animate-float lg:-mt-8'></img>
+                            </a>
                         </div>
 
                         <div className='lg:w-4/12 flex flex-col'>
@@ -63,7 +69,7 @@ export default function Home() {
                             </p>
 
 
-                            <a href="/">
+                            <a href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=7UwysmyBx9DAg8BjLqzatSvDC8biud5pDfMvVAFFvvJw&inputAmount=1.7&outputAmount=3931400.853024&fixed=in">
                                 <button data-aos='slide-left' className="text-blue-50 font-medium lg:text-lg py-3 px-8 border-2 border-blue-50 rounded-xl flex items-center justify-center gap-x-6 hover:bg-blue-50 hover:text-white-50 mt-8">
                                     Buy Solragon
 
@@ -304,6 +310,9 @@ export default function Home() {
                     <img src={p_2} alt=''></img>
                     <img src={p_3} alt=''></img>
                     <img src={p_4} alt=''></img>
+                    <a href='https://www.dextools.io/app/en/solana/pair-explorer/DsgMDa6XDv57Ut1PiHep4kPfh9kfpLqZYoRCN92bMBqW?t=1711937755510'>
+                        <img src={p_5} alt='' className='w-72'></img>
+                    </a>
                 </div>
             </div>
 
@@ -326,7 +335,6 @@ export default function Home() {
                         </button>
                     </a>
                 </div>
-
             </div>
 
             <Footer />

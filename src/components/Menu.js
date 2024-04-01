@@ -24,12 +24,13 @@ export default function Menu() {
             <li><a href="#tokenomics" className="text-white-50 hover:text-white-100">Tokenomics</a></li>
             <li><a href="#roadmap" className="text-white-50 hover:text-white-100">roadmap</a></li>
             <li><a href="https://t.me/SOLRAGON_PORTAL" className='text-white-50 hover:text-white-100'>join us</a></li>
+            <li><a href="https://www.dextools.io/app/en/solana/pair-explorer/DsgMDa6XDv57Ut1PiHep4kPfh9kfpLqZYoRCN92bMBqW?t=1711937755510" className='text-white-50 hover:text-white-100'>Chart</a></li>
           </ul>
         </nav>
 
-        <a href="/">
+        <a href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=7UwysmyBx9DAg8BjLqzatSvDC8biud5pDfMvVAFFvvJw&inputAmount=1.7&outputAmount=3931400.853024&fixed=in">
           <button className="text-white-50 bg-blue-50 py-3 lg:text-lg md:px-10 px-3 text-center rounded-xl font-medium flex items-center justify-center gap-x-6 border-2 border-blue-50">
-            Connect Wallet
+            Buy Now
           </button>
         </a>
       </div>
@@ -71,8 +72,11 @@ export default function Menu() {
           <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer  text-white-100">
             <a href="https://t.me/SOLRAGON_PORTAL" className="text-lg ml-4 font-semibold">Join Us</a>
           </button>
+          <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer  text-white-100">
+            <a href="https://www.dextools.io/app/en/solana/pair-explorer/DsgMDa6XDv57Ut1PiHep4kPfh9kfpLqZYoRCN92bMBqW?t=1711937755510" className="text-lg ml-4 font-semibold">Chart</a>
+          </button>
           <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer  text-white-100 bg-red-50">
-            <a href="/" className="text-lg ml-4 font-semibold">Connect Wallet</a>
+            <a href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=7UwysmyBx9DAg8BjLqzatSvDC8biud5pDfMvVAFFvvJw&inputAmount=1.7&outputAmount=3931400.853024&fixed=in" className="text-lg ml-4 font-semibold">Buy Now</a>
           </button>
         </div> : null
       }
