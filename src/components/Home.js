@@ -149,7 +149,7 @@ export default function Home() {
                         Let's talk Solragon, the game-changer on Solana. Picture this: a free LP pool locker, designed just for Solana tokens. With Solragon, locking your assets is a breeze - and guess what? It's totally free! No fees, no hassle. We're talking about keeping your investments safe from rug pulls and dodgy schemes. Plus, with our platform, you're not just locking liquidity; you're locking in trust, transparency, and stability in the Solana DeFi world. So, why wait? Join us and let's ride the wave of a safer, more inclusive financial future together!"
                     </p>
 
-                    <a href="https://solragon-locker.netlify.app/">
+                    <a href="https://locker.solragon.io/">
                         <button data-aos='zoom-in' className="text-white-50 bg-blue-50 py-3 lg:text-lg lg:px-10 px-5 text-center rounded-xl font-medium flex items-center justify-center mx-auto gap-x-6 border-2 border-blue-50 hover:text-white-50 mt-6">
                             Liquidity Locker
 
